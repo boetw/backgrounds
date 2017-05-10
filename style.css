@@ -1,0 +1,78 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+p {
+  text-align: center;
+  font-size: 150%;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+div {
+  border: 1px solid white;
+}
+
+.box {
+  flex: 1 1 auto;
+  transition-duration: 0.5s;
+}
+.box:hover {
+  transition-duration: 0.5s;
+  flex: 10 0;
+}
+
+.one {
+  background: repeating-linear-gradient(45deg, #FFE11A, #FFE11A 50%, #FD7400 50%, #FD7400);
+  background-size: 20px 20px;
+}
+
+.two {
+  background-image: radial-gradient(ellipse 3.95em 3.95em, #bedb39, #bedb39 25%, #004c66 25%);
+  background-size: 2em 2em;
+}
+
+.three {
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 1em, #9E2053 1em, #9E2053 50%), repeating-linear-gradient(45deg, #731630, #731630 1em, #004C66 1em, #004C66 50%);
+  background-size: 3em 3em, 2em 2em;
+}
+
+.four {
+  background-image: repeating-linear-gradient(45deg, #004C66, #004C66 1em, #BEDB39 1em, #BEDB39 50%);
+  background-size: 2em 2em;
+}
+
+.five {
+  background-image: radial-gradient(ellipse farthest-corner at 2.3em 2.3em, #9e2053, #9e2053 50%, #40152a 50%);
+  background-size: 2em 2em;
+}
+
+.six {
+  background-image: repeating-linear-gradient(-45deg, #BEDB39, #004C66 1em, #731630 1em, #FD7400 50%);
+  background-size: 2em 2em;
+}
+
+.seven {
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 1em, #731630 1em, #731630 50%), repeating-linear-gradient(45deg, #40152A, #40152A 1em, #FD7400 1em, #FD7400 50%);
+  background-size: 3em 3em, 2em 2em;
+}
+
+.eight {
+  background-image: radial-gradient(ellipse 100% 100%, #bedb39, #bedb39 25%, rgba(0, 0, 0, 0) 25%), radial-gradient(ellipse 50% 50%, #ab1a25, #ab1a25 25%, #004c66 25%);
+  background-size: 1em 1em, 2em 2em;
+}
+
+.nine {
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 1em, #BEDB39 1em, #BEDB39 50%), repeating-linear-gradient(-45deg, #BEDB39, #BEDB39 1em, #FD7400 1em, #FD7400 50%);
+  background-size: 3em 3em, 3em 3em;
+}
